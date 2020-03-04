@@ -1,0 +1,119 @@
+.bar .logo {
+	max-height: 50px;
+}
+
+.home-block {
+	background: #fff;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.home-block h1 {
+	color: #333 !important;
+}
+
+.home-block img {
+	max-height: 250px;
+}
+
+.homelogo {
+	max-width: 150px;
+	border-radius: 10px;
+}
+
+.bg--blue {
+    background: #35a7e7;
+}
+
+.bg--blue p {
+	color: #fff;
+}
+
+.bg--blue h1 {
+font-weight: bold;
+color: #3d3f99 !important;
+margin-bottom: 25px;
+}
+
+.bg--blue h2 {
+font-weight: bold;
+}
+
+.bg--gradient-blue {
+background: #00B4DB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg--gradient-blue p {
+color: #fff;
+}
+
+.lead-text {
+	color: #3d3f99 !important;
+    font-weight: bold;
+}
+
+.flag-icon {
+	font-size: 2em;
+}
+
+.lead {
+    font-weight: 400;
+    color: #333333;
+    text-align: justify;
+}
+
+h2 {
+	color: #212121;
+	font-weight: bold;
+}
+
+h3 {
+	color: #fff;
+}
+
+.feature h4 {
+    color: #3d3f99;
+}
+
+p {
+	color: #333;
+}
+
+footer .logo {
+    max-height: 3em;
+}
+
+.menu-horizontal > li > span {
+	color: #333695 !important;
+	font-weight: bold;
+	opacity: 1 !important;
+}
+
+.menu-horizontal > li > a {
+	color: #333695 !important;
+	font-weight: bold;
+	opacity: 1 !important;
+}
+
+.btn--icon {
+    padding-left: 3.5rem;
+}
+
+section, footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+body {
+	background: #f3f3f3;
+}
+
+.bar {
+    background: white;
+}
+
+.feature-2 .feature__body {
+	width: 100%;
+}
