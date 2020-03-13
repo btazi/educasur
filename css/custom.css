@@ -1,5 +1,5 @@
 .bar .logo {
-	max-height: 50px;
+	max-height: 70px;
 }
 
 .home-block {
@@ -75,7 +75,7 @@ h2 {
 }
 
 h3 {
-	color: #fff;
+	/*color: #fff;*/
 }
 
 .feature h4 {
@@ -87,19 +87,20 @@ footer .logo {
 }
 
 .menu-horizontal > li > span {
-	color: #333695 !important;
-	font-weight: bold;
+	/*color: #333695 !important;*/
+	/*font-weight: bold;*/
 	opacity: 1 !important;
 }
 
 .menu-horizontal > li > a {
-	color: #333695 !important;
-	font-weight: bold;
+	/*color: #333695 !important;*/
+	/*font-weight: bold;*/
 	opacity: 1 !important;
 }
 
 .btn--icon {
-	padding-left: 3.5rem;
+	padding-left: 6rem;
+	padding-right: 3rem;
 }
 
 section,
@@ -122,4 +123,21 @@ body {
 
 .flag-sm {
 	font-size: 1.5rem;
+}
+
+#menu2 .bar__module ul.not(.menu-vertical) > li > a {
+	color: #fff;
+	font-weight: normal;
+}
+
+#menu2 .order-lg-3 .bar__module a {
+	color: #fff;
+}
+
+ol li:not(:last-child) {
+	margin-bottom: 0.3em;
+}
+
+ol li {
+	margin-left: 15px;
 }
