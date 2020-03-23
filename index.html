@@ -641,10 +641,11 @@
                 </div>
                 <div class="col-md-6 text-left">
                     <div class="row">
-                        <form>
+                      <script src="https://www.google.com/recaptcha/api.js?render=6LeHSOMUAAAAAEB4QM0lXWnDilsqnQwEvd9Cutgx"></script>
+                      <form action="https://smartforms.dev/submit/5e7870ad87741358fac95982" method="POST">
                             <div class="col-md-12">
                                 <label>Nom:</label>
-                                <input type="text" name="name" placeholder="Nom" />
+                                <input type="text" name="nom" placeholder="Nom" />
                             </div>
                             <div class="col-md-12">
                                 <label>Adresse email</label>
@@ -652,14 +653,13 @@
                             </div>
                             <div class="col-md-12">
                                 <label>Message:</label>
-                                <textarea type="message" name="email" placeholder="Votre message..."></textarea>
+                                <textarea type="message" name="message" placeholder="Votre message..."></textarea>
                             </div>
                             <div class="col-md-12">
-                                <a class="btn btn--primary type--uppercase" href="#">
-                                    <span class="btn__text">
-                                        Envoyer
-                                    </span>
-                                </a>
+                                <div class="g-recaptcha" data-sitekey="6LeHSOMUAAAAAEB4QM0lXWnDilsqnQwEvd9Cutgx"></div>
+                                <button class="btn btn--primary type--uppercase" type="submit">
+                                  Envoyer
+                                </button>
                             </div>
                         </form>
                     </div>
